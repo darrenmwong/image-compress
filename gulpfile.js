@@ -1,15 +1,9 @@
 var gulp = require('gulp'),
-    babelify = require('babelify'),
-    browserify = require('browserify'),
     buffer = require('vinyl-buffer'),
-    connect = require('gulp-connect'),
-    cssnano = require('gulp-cssnano'),
-    fileinclude = require('gulp-file-include'),
     image = require('gulp-image'),
     gulpLoadPlugins = require('gulp-load-plugins'),
     order = require("gulp-order"),
     source = require('vinyl-source-stream'),
-    uglify = require('gulp-uglify'),
     plugins = gulpLoadPlugins();
 
 function onError(error){
